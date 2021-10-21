@@ -61,9 +61,24 @@ lebih menarik,kamu juga diminta untuk membuat suatu looping yang menghitung maju
             4 - I will become web developer
             2 - I will become web developer
         */
-        var jawaban1 = ""
+        var jawaban1 = "";
         // Code kamu di sini, lakukan looping dengan while
-    
+        i=2;
+        jawaban1 += "LOOPING PERTAMA <br>"
+        while (i < 21) {
+            jawaban1 += "" + i + " - I love coding <br>";
+            i++;
+            i++;
+        }
+
+        i=20;
+        jawaban1 += "LOOPING KEDUA <br>";
+        while (i > 0) {
+            jawaban1 += "" + i + " - I will become web developer <br>";
+            i--;
+            i--;
+        }
+        
     
         // Driver Code, Jangan diganggu !
         document.getElementById("jawaban1").innerHTML = jawaban1

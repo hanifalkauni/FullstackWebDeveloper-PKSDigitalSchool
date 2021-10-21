@@ -62,10 +62,17 @@ adalah sebuah
             ]
         
         // Code kamu di sini, lakukan looping terhadap input di atas
-
+        output='';
+        for (let i = 0; i < input.length; i++) {
+                output += "Nomor ID:  " + input[i][0] + "<br>"
+                output += "Nama Lengkap:  " + input[i][1] + "<br>"
+                output += "TTL:  " + input[i][2] + " "+ input[i][3]+ "<br>"
+                output += "Hobi:  " + input[i][4] + "<br><br>" 
+        }
+        
 
         
-        var jawaban1 // =  Isikan outputnya di sini
+        var jawaban1 = output // =  Isikan outputnya di sini
 
         document.getElementById("jawaban1").innerHTML = jawaban1  
 

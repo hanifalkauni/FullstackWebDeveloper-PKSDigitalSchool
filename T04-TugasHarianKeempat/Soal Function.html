@@ -51,8 +51,9 @@ halaman html. Tampilkan dengan cara document.getElementById("jawaban1").innerHTM
         
         function teriak() {
             // Tulis Code mulai di sini
-
+            document.getElementById("jawaban1").innerHTML = "Halo Function!"
             // Tampilkan dengan cara document.getElementById("jawaban1").innerHTML seperti di CONTOH.
+
         }
         
         // Jalankan function teriak
@@ -69,6 +70,7 @@ halaman html. Tampilkan dengan cara document.getElementById("jawaban1").innerHTM
         
         function kalikan(num1, num2) {
             // Code kamu mulai dari sini
+            document.getElementById("jawaban2").innerHTML =  num1 * num2 
 
  
 
@@ -100,7 +102,8 @@ halaman html. Tampilkan dengan cara document.getElementById("jawaban1").innerHTM
     
         function buatKalimat(nama, umur, alamat, hobi) {
             // Code kamu mulai dari sini
-
+            var kalimatBaru = "Nama saya " + nama + ", umur saya " + umur + " tahun, alamat saya di " + alamat + ", dan saya punya hobby yaitu " + hobi
+            document.getElementById("jawaban3").innerHTML = kalimatBaru
             // Tampilkan dengan cara document.getElementById("jawaban3").innerHTML seperti di CONTOH.
         }
 
