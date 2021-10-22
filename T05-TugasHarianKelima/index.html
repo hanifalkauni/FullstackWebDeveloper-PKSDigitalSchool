@@ -43,9 +43,10 @@
 
         ]
 
-        var tampungBarang = document.getElementById('listBarang')
+        
 
         //Release 0
+        var tampungBarang = document.getElementById('listBarang')
         function displayItem(array){
             var tampung = ""
             for (let i = 0; i < array.length; i++) {
@@ -98,7 +99,6 @@
         function addCart() {
             var cart = document.getElementById('cart')
             valueCart++
-            console.log(valueCart)
             cart.innerHTML = `<i class="fas fa-shopping-cart"></i>(${valueCart})`
         }
 
